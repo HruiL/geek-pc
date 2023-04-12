@@ -1,0 +1,19 @@
+.main {
+    width: 100%;
+    height: calc(100% - 64px);
+    align-items: stretch;
+}
+
+.main .left {
+    width: 200px;
+    background-color: #001529;
+    float: left;
+    height: 100%;
+}
+
+.main .right {
+    padding: 20px;
+    background-color: #f0f2f5;
+    height: 100%;
+    overflow-y: auto;
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@src/*":["./src/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@store/*":["./src/store/*"],
+      "@action_types/*": ["./src/store/types/*"],
+      "@actions/*": ["./src/store/actions/*"],
+      "@action_creators/*": ["./src/store/creators/*"],
+      "@reducers/*": ["./src/store/reducers/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@requests/*": ["./src/requests/*"],
+      "@css/*": ["./src/assets/css/*"],
+      "@image/*": ["./src/assets/image/*"]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.filterForm {
+    border-top: 1px solid #f0f0f0;
+    padding: 20px 40px 20px 20px;
+}
+
+.filterForm :global(.field .field-body) {
+    flex-grow: 25;
+}
+
+.filterForm :global(.field .field-label) {
+    text-align: left;
+    margin-right: 0;
+}

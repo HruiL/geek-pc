@@ -1,0 +1,22 @@
+.loginPage {
+    height: 100%;
+    position: relative;
+    background: url("@image/loginPageBg.png");
+}
+
+.loginContainer {
+    width: 440px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+}
+
+.logo {
+    width: 110px;
+    display: block;
+    margin: 15px auto 35px auto;
+}

@@ -1,0 +1,18 @@
+input[type="checkbox"],
+input[type="radio"] {
+    vertical-align: middle;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+html {
+    font-size: 14px;
+}
+
+.react-datepicker__triangle {
+    transform: translate3d(110px, 0px, 0px) !important;
+}

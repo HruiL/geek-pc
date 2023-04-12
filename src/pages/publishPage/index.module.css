@@ -1,0 +1,35 @@
+.publishPage :global(.breadcrumb) {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.publishPage :global(.file.is-boxed .file-cta) {
+    height: 100%;
+    width: 128px;
+    justify-content: center;
+}
+
+.publishPage form {
+    padding: 15px 50px 30px 50px;
+}
+
+.publishPage :global(.field:not(:last-child)) {
+    margin-bottom: 25px;
+}
+
+.publishPage :global(figure img) {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+}
+
+.publishPage :global(.quill) {
+    width: 100%;
+}
+
+.publishPage :global(.ql-container) {
+    height: auto;
+}
+
+.publishPage :global(.ql-editor) {
+    min-height: 200px;
+}

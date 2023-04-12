@@ -1,0 +1,5 @@
+.pagination :global(.pagination-list) {
+    width: 100%;
+    justify-content: center;
+    padding: 20px 0;
+}
